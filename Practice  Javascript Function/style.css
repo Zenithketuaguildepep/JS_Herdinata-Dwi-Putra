@@ -1,0 +1,50 @@
+/* CSS untuk gaya tampilan */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    color: #444;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.output {
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.question {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0066cc; /* Warna biru untuk soal */
+}
+
+.answer {
+    margin-top: 10px;
+    color: #cc3300; /* Warna merah untuk jawaban */
+    padding-left: 10px;
+}
+
+.code {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    color: #333;
+    margin-top: 10px;
+    white-space: pre;
+}
